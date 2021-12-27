@@ -1,0 +1,9 @@
+.add-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &__submit-button {
+    width: 50%;
+  }
+}

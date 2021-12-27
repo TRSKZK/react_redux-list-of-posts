@@ -1,0 +1,18 @@
+.card-container {
+  padding: 40px;
+}
+.card {
+  margin-bottom: 20px;
+
+  &__title::first-letter {
+    text-transform: capitalize;
+  }
+
+  &__body::first-letter {
+    text-transform: capitalize;
+  }
+
+  &__details-link {
+    text-decoration: none;
+  }
+}
